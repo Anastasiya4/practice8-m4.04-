@@ -1,0 +1,17 @@
+:root {
+  --first-color: #ff4081;
+  --second-color: #ff9800;
+  --third-color: #4caf50;
+}
+
+.list-item:nth-child(3n + 1) {
+  background-color: var(--first-color);
+}
+
+.list-item:nth-child(3n-1) {
+  background-color: var(--second-color);
+}
+
+.list-item:nth-child(3n) {
+  background-color: var(--third-color);
+}
